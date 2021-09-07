@@ -1,1 +1,3 @@
-Codigos usados para o ensino de vhdl 
+###########################################
+Codes used for teaching vhdl at university
+
