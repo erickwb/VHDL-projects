@@ -1,4 +1,5 @@
 -- Code your design here
+--code for an xor gate
 library IEEE;   -- 
 use IEEE.std_logic_1164.all; --biblioteca padrao 1164 
 
