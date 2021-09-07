@@ -1,4 +1,5 @@
 -- Code your design here
+-- code for a type D flip flop
 library IEEE;
 use IEEE.std_logic_1164.all;
 
