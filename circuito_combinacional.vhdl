@@ -1,4 +1,5 @@
 -- Code your design here
+-- code for combinational circuit
 library IEEE;
 use IEEE.std_logic_1164.all;
 
