@@ -6,7 +6,7 @@ use IEEE.std_logic_1164.all; --biblioteca padrao 1164
 --deve ter o mesmo nome do projeto
 entity Porta_xor is port( --declaração da entidade
 
-	a	:	 in	std_logic; -- porta a para entrada 
+    a	:	 in	std_logic; -- porta a para entrada 
     b 	:	 in	std_logic; -- porta b para entrada 
     c	:	 out std_logic -- porta c para saida 
 );
@@ -20,10 +20,4 @@ begin		--iniciar a arquitetura hardware
 c <= a XOR b;  --saida c = a xor b
   
 end hardware;
-
-
-
-
- 
-
-
+	
