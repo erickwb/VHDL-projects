@@ -21,7 +21,7 @@ signal dado : std_logic;
 
 begin 
 
-	dado <= D when (clk = '1') else dado;
+    dado <= D when (clk = '1') else dado;
     
     Q <= dado;
     Qn <= not dado;
