@@ -14,8 +14,6 @@ entity Flip_flop_D is port (
 end Flip_flop_D;
 
 
-
-
 architecture hardware of Flip_flop_D is 
 
 
