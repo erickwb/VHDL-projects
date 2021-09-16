@@ -5,9 +5,8 @@ use IEEE.std_logic_1164.all;
 
 entity decodificador is port (
 
-	B : in std_logic_vector(1 downto 0); --vetor com as entradas b0 e b1
+    B : in std_logic_vector(1 downto 0); --vetor com as entradas b0 e b1
     Y : out std_logic_vector(3 downto 0); -- vetor com as saidas y0 y1 y2 y3
-    
     en : in std_logic;
 
 );
@@ -20,7 +19,7 @@ begin
 processo01 : process(B , en)
 begin
 
-	Y <= "ZZZZ";
+    Y <= "ZZZZ";
     
     if(en = '1') then
     	
@@ -35,7 +34,4 @@ begin
 end process processo01;
 
 end hardware;
-
-
-
 
